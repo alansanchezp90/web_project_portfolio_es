@@ -50,7 +50,12 @@ h1 {
 
 @font-face {
   font-family: "OpenSans-Regular", sans-serif;
-  src: url(../font/fonts/OpenSans-Regular.woff);
+  src: url(../font/fonts/OpenSans-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ArchivoBlack-Regular";
+  src: url(../font/fonts/ArchivoBlack-Regular.woff) format("woff");
 }
 
 .descripcion-habilidad {
@@ -197,14 +202,14 @@ p {
 }
 
 .project-card__links a {
-  color: 6D6DFF;
+  color: #6d6dff;
   text-decoration: none;
   font-family: "OpenSans-Regular", sans-serif;
   font-size: 14px;
 }
 
 .project-card__link_type_github {
-  color: FFFFFF;
+  color: #ffffff;
 }
 
 .page {
