@@ -10,7 +10,10 @@
     <main class="page">
       <section class="hero">
         <div class="text-container">
-          <h1>Alan <br />Sanchez</h1>
+          <h1>
+            <span class="hero__name-line">Alan</span>
+            <span class="hero__name-line">Sanchez</span>
+          </h1>
           <p class="descripcion-habilidad">
             Desarrollador Full-stack Junior | TypeScript, React, Node.js
           </p>
@@ -53,18 +56,40 @@
         <h2>Habilidades y herramientas</h2>
 
         <ul class="skills__list">
-          <li><img src="./images/html5.png" class="li-icons" alt="html5" /></li>
-          <li><img src="./images/CSS3.png" class="li-icons" alt="css3" /></li>
+          <li>
+            <img
+              src="./images/html5.png"
+              class="li-icons"
+              alt="Logotipo de html5"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/CSS3.png"
+              class="li-icons"
+              alt="Logotipo de css3"
+            />
+          </li>
           <li>
             <img
               src="./images/javascript.png"
               class="li-icons"
-              alt="javascript"
+              alt="Logotipo de javascript"
             />
           </li>
-          <li><img src="./images/git.png" class="li-icons" alt="git" /></li>
           <li>
-            <img src="./images/github.png" class="li-icons" alt="github" />
+            <img
+              src="./images/git.png"
+              class="li-icons"
+              alt="Logotipo de git"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/github.png"
+              class="li-icons"
+              alt="Logotipo de github"
+            />
           </li>
           <li>
             <img src="./images/chatgpt.png" class="li-icons" alt="chatgpt" />
@@ -97,7 +122,7 @@
                   Desarrollo de una landing page responsiva para una cafetería
                   siguiendo un brief de diseño. Incluye estructura semántica,
                   maquetación con Flexbox, creación de secciones nuevas y un
-                  formulario de contacto funcional.Logro: Implementé desde cero
+                  formulario de contacto funcional. Logro: Implementé desde cero
                   el diseño completo de la página, organicé el proyecto con
                   buenas prácticas y publiqué la versión final utilizando GitHub
                   Pages.
@@ -141,12 +166,20 @@
 
                 <p>
                   Sitio web personal donde comparto gameplays, proyectos y
-                  experimentos de programación.
+                  experimentos de programación, futura pagina donde tendra un
+                  bot responsivo a preguntas sencillas, navegacion rapida, y una
+                  cantidad substancial de videojuegos, basicamente un espacio
+                  personal donde podre guardar todos mis proyectos, gustos y
+                  experiencias y compartirlos con el mundo, un paso a la vez
                 </p>
 
                 <div class="project-card__links">
-                  <a href="#">↗ Próximamente</a>
-                  <a href="#">Repositorio privado</a>
+                  <span class="project-card__status"> Próximamente</span>
+                  <span
+                    class="project-card__status project-card__status_type_private"
+                  >
+                    Repositorio privado</span
+                  >
                 </div>
               </div>
             </article>
